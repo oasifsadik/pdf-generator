@@ -1,0 +1,25 @@
+{
+    "name": "codeurwaypdf/pdf-generator",
+    "description": "A simple PDF generation package for Laravel",
+    "type": "library",
+    "autoload": {
+      "psr-4": {
+        "Codeurwaypdf\\PdfGenerator\\": "src/"
+      }
+    },
+    "require": {
+      "php": "^8.0",
+      "barryvdh/laravel-dompdf": "^1.0"
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Codeurwaypdf\\PdfGenerator\\PdfGeneratorServiceProvider"
+        ],
+        "aliases": {
+          "PdfGenerator": "Codeurwaypdf\\PdfGenerator\\Facades\\PdfGenerator"
+        }
+      }
+    }
+  }
+  
