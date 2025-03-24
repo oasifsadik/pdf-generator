@@ -9,7 +9,7 @@
     },
     "require": {
       "php": "^8.0",
-      "barryvdh/laravel-dompdf": "^1.0"
+      "barryvdh/laravel-dompdf": "^2.0"
     },
     "extra": {
       "laravel": {
